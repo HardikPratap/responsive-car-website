@@ -11,12 +11,12 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
 
       <!--=============== SWIPER CSS===============-->
-      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive car website - Bedimcode</title>
+      <title>Responsive car website - Hardik</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
@@ -69,9 +69,9 @@
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home">
-            <div class="home__swiper">
-               <div>
-                  <article class="home__article car__orange">
+            <div class="home__swiper swiper">
+               <div class="swiper-wrapper">
+                  <article class="home__article car__orange swiper-slide">
                      <div class="home__panel-1"></div>
                      <div class="home__panel-2"></div>
 
@@ -104,7 +104,7 @@
                   </article>
 
 
-                  <article class="home__article car__green">
+                  <article class="home__article car__green swiper-slide">
                      <div class="home__panel-1"></div>
                      <div class="home__panel-2"></div>
 
@@ -137,7 +137,7 @@
                   </article>
 
 
-                  <article class="home__article car__blue">
+                  <article class="home__article car__blue swiper-slide">
                      <div class="home__panel-1"></div>
                      <div class="home__panel-2"></div>
 
@@ -183,7 +183,10 @@
                   <a href="" target="_blank" class="home__social-link" >
                      <i class="ri-facebook-line"></i>
                   </a>
-            </div>
+               </div>
+
+               <!-- Pgination  -->
+                <div class="swiper-pagination"></div>
             </div>
             
          </section>
@@ -193,7 +196,7 @@
       <script src=""></script>
 
       <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+      <script src="./assets/js/swiper-bundle.min.js"></script>
       
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
